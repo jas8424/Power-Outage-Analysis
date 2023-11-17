@@ -46,7 +46,7 @@ how severe the power outage is.
 |7.0	|MN|	severe weather|	East North Central|	250000.0|	1740.0|	435000000.0|
 
 
-<iframe src="C:\Users\Jason\Desktop\Power-Outage-Analysis\Pie of Cause Category.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="pics/Pie of Cause Category.html" width=800 height=600 frameBorder=0></iframe>
 ""
 ```
 {
