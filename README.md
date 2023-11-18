@@ -52,7 +52,7 @@ The pie chart shows the percentage of each cause category that responded to the 
 As you can see, severe weather and intentional attacks are two primary factors.
 
 ### Bivariate Analysis:
-<iframe src="pics/Choropleth US outage.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="pics/Choropleth_Us_outage.html" width=800 height=600 frameBorder=0></iframe>
 The Choropleth map of the U.S. states and the number of power outages that happened in that state
 Many of the power outages happened in CA and TX, as well as in areas near the Northwest, South, and West.
 
