@@ -39,7 +39,7 @@ how severe the power outage is.
 
 | MONTH   | POSTAL.CODE  | CAUSE.CATEGORY|	CLIMATE.REGION|	CUSTOMERS.AFFECTED|	OUTAGE.DURATION| Overall Effect  |
 |-------- |--------------|---------------|----------------|-------------------|----------------|-----------------|
-|7.0	|MN	|severe weather|	East North Central|	70000.0|	3060.0|	214200000.0|
+|7.0	|MN	|severe weather|East North Central|	70000.0|	3060.0|	214200000.0|
 |5.0	|MN	|intentional attack|East North Central|	2970.5|	1.0|	2970.5|
 |10.0	|MN|	severe weather|	East North Central|	70000.0|	3000.0|	210000000.0|
 |6.0	|MN|	severe weather|	East North Central|	68200.0|	2550.0|	173910000.0|
@@ -63,21 +63,20 @@ Its overall effects are way less than those of equipment failure and severe weat
 
 |   equipment failure |   fuel supply emergency |   intentional attack |        islanding |    public appeal |   severe weather |   system operability disruption |
 |--------------------:|------------------------:|---------------------:|-----------------:|-----------------:|-----------------:|--------------------------------:|
-|         6.52e+07    |                  7500.5 |                285   | 931200           |   1410           |      1.78962e+08 |                     1.7325e+06  |
-|         7.61e+07    |                  8468   |               1322   |    nan           |      1.47494e+06 |      3.8615e+08  |                     2.72094e+08 |
-|         1.23878e+07 |                 12240   |                 92   |    881           |      5.1336e+07  |      3.26609e+08 |                     2.17858e+07 |
-|         5.61669e+07 |                     1   |                189   | 795000           | 992774           |      4.34261e+08 |                     5.5125e+06  |
-|         1.05e+07    |                  1440   |                410   |      7.13798e+06 |    473.5         |      1.9047e+08  |                     1.119e+07   |
-|         2.84479e+07 |                   nan   |                137.5 |    nan           |   4320           |      9.8209e+07  |                     2.51766e+06 |
-|         1.645e+06   |                    76   |                117   |  70460           |   2275           |      1.86159e+08 |                     1.34727e+07 |
-|         3.228e+07   |                   455   |                464   |  33175           |    420           |      8.02369e+07 |                     2.05364e+07 |
-|         6.1e+06     |                   nan   |                 47   | 148400           |      1.24201e+07 |      5.6615e+06  |                   nan           |
+|         6.52e+07    |                  7500.5 |                  285 |           931200 |             1410 |      1.78962e+08 |                      1.7325e+06 |
+|         7.61e+07    |                    8468 |                 1322 |              nan |      1.47494e+06 |      3.8615e+08  |                     2.72094e+08 |
+|         1.23878e+07 |                   12240 |                   92 |              881 |       5.1336e+07 |      3.26609e+08 |                     2.17858e+07 |
+|         5.61669e+07 |                       1 |                  189 |           795000 |           992774 |      4.34261e+08 |                      5.5125e+06 |
+|         1.05e+07    |                    1440 |                  410 |      7.13798e+06 |            473.5 |      1.9047e+08  |                       1.119e+07 |
+|         2.84479e+07 |                     nan |                137.5 |              nan |             4320 |      9.8209e+07  |                     2.51766e+06 |
+|         1.645e+06   |                      76 |                  117 |            70460 |             2275 |      1.86159e+08 |                     1.34727e+07 |
+|         3.228e+07   |                     455 |                  464 |            33175 |              420 |      8.02369e+07 |                     2.05364e+07 |
+|         6.1e+06     |                     nan |                   47 |           148400 |      1.24201e+07 |      5.6615e+06  |                             nan |
+
 Here is the Climate Region:
 
-![Climate Region]("pics/climate_regions.gif")
+![Climate Region]('pics/climate_regions.gif')
 
-
----
 ## Assessment of Missingness
 ### NMAR Analysis
 From my point of view, I believe the column `CUSTOMERS.AFFECTED` is NMAR. The reason is if the power outage only affects
