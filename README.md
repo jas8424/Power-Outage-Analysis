@@ -72,6 +72,7 @@ Its overall effects are way less than those of equipment failure and severe weat
 |         1.645e+06   |                    76   |                117   |  70460           |   2275           |      1.86159e+08 |                     1.34727e+07 |
 |         3.228e+07   |                   455   |                464   |  33175           |    420           |      8.02369e+07 |                     2.05364e+07 |
 |         6.1e+06     |                   nan   |                 47   | 148400           |      1.24201e+07 |      5.6615e+06  |                   nan           |
+Here is the Climate Region:
 
 ![Climate Region]("pics/climate_regions.gif")
 
@@ -90,7 +91,7 @@ We could estimate the population of affected people from that.
 **Missingness of `CUSTOMERS.AFFECTED` does depend on `ANOMALY.LEVEL`**
 We wanted to determine if `CUSTOMERS.AFFECTED` and `ANOMALY.LEVEL` were missing at random or missing completely at random.
 Here is the observed distribution of `ANOMALY.LEVEL` when `CUSTOMERS.AFFECTED` was missing and not missing:
-<iframe src="pics/Dist_Anomaly_Index.html.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="pics/Dist_Anomaly_Index.html" width=800 height=600 frameBorder=0></iframe>
 
 Our observed statistic was: 0.11320987189463728
 
@@ -102,7 +103,7 @@ Here is the empirical distribution of the test statistic:
 **Missingness of `CUSTOMERS.AFFECTED` does not depend on `RES.PRICE`**
 We wanted to determine if `CUSTOMERS.AFFECTED` and `RES.PRICE` were Missing at Random or Missing Completely at Random.
 Here is the observed distribution of `RES.PRICE` when `CUSTOMERS.AFFECTED` was missing and not missing:
-<iframe src="pics/Dist_ElectricityPrice.html.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="pics/Dist_ElectricityPrice.html" width=800 height=600 frameBorder=0></iframe>
 
 Our observed statistic was: 0.10206379649832442 
 Our p-value was: 0.5622
