@@ -1,7 +1,5 @@
 # Power-Outage-Analysis
 ### Name: Jason Zhang
-
-
 ## Introduction
 
 Power outages, often unforeseen disruptions in electrical supply, underscore the significance of electricity in modern
@@ -25,6 +23,7 @@ in the continental U.S. during January 2000–July 2016.
 |`Overall Effect`| `OUTAGE.DURATION` times `CUSTOMERS.AFFECTED` for measurement of how severe the power outage is. |
 |`ANOMALY.LEVEL`| The oceanic El Niño/La Niña (ONI) index referring to the cold and warm episodes by season.      |
 |`RES.PRICE`|	Monthly electricity price in the residential sector (cents/kilowatt-hour)|
+
 ---
 ## Data Cleaning and Exploratory Data Analysis
 First, I select all the columns that relate to my research, which is shown above.
