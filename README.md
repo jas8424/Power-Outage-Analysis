@@ -119,12 +119,15 @@ The question we are going to research is: Does the most common factor, severe we
 **Test Statistic:** Use the mean difference of `Overall Effect` with severe weather in `CAUSE.CATEGORY` and
 `Overall Effect` with other factors in `CAUSE.CATEGORY`.
 
-We chose to use the mean difference since `Overall Effect` is the numerical data.
-Significance Level: 1%
-p-value: 0
-We did 10,000 simulations.
-Our observed statistic was: 969391931.656144.
-Conclusion: We reject the null hypothesis.
+We chose to use the mean difference since `Overall Effect` is the numerical data and did 10,000 simulations.
 
+Our observed statistic was: 969391931.656144.
+
+Significance Level: 1%
+
+p-value: 0
+
+Conclusion: We reject the null hypothesis.
+<iframe src="pics/Mean_Diff_Cate.html" width=800 height=600 frameBorder=0></iframe>
 Since we reject the null hypothesis, we believe the mean `Overall Effect` of severe weather in `CAUSE.CATEGORY` is greater than the mean `Overall Effect` with other factors in the same CAUSE. CATEGORY.
 That means we have strong evidence that severe weather has a larger effect on power outages compared to other factors that caused power outages.
