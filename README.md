@@ -75,7 +75,7 @@ Its overall effects are way less than those of equipment failure and severe weat
 
 Here is the Climate Region:
 
-![Climate Region]('pics/climate_regions.gif')
+![Climate Region](pics/climate_regions.gif)
 
 ## Assessment of Missingness
 ### NMAR Analysis
