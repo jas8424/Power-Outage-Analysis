@@ -73,6 +73,7 @@ Its overall effects are way less than those of equipment failure and severe weat
 |         1.645e+06   |                    76   |                117   |  70460           |   2275           |      1.86159e+08 |                     1.34727e+07 |
 |         3.228e+07   |                   455   |                464   |  33175           |    420           |      8.02369e+07 |                     2.05364e+07 |
 |         6.1e+06     |                   nan   |                 47   | 148400           |      1.24201e+07 |      5.6615e+06  |                   nan           |
+
 ![Climate Region]("pics/climate_regions.gif")
 
 
